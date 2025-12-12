@@ -13,7 +13,7 @@ export default function WebsiteCard({ website }: WebsiteCardProps) {
             <div className="card-content">
                 <div className="card-header">
                     <h3 className="card-title">{website.title}</h3>
-                    <span className="card-category">{website.category}</span>
+                    {/* <span className="card-category">{website.category}</span> */}
                 </div>
                 <p className="card-description">{website.description}</p>
                 <div className="card-footer">

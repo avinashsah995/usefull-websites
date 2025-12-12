@@ -5,7 +5,10 @@ import './WebsiteDetail.css';
 export default function WebsiteDetail() {
     const { id } = useParams<{ id: string }>();
     const navigate = useNavigate();
-    const website = websites.find(w => w.id === id);
+
+    // Flatten the websites array to find the specific website
+    const allWebsites = websites.flatMap(category => category.websites);
+    const website = allWebsites.find(w => w.id === id);
 
     if (!website) {
         return (
