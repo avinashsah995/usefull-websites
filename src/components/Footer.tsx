@@ -22,13 +22,13 @@ export default function Footer() {
                         <div className="footer-column">
                             <h4 className="footer-heading">Project</h4>
                             <Link to="/" className="footer-link">Home</Link>
-                            <a href="https://github.com/avinashsah995/usefull-websites" target="_blank" rel="noopener noreferrer" className="footer-link">GitHub</a>
+                            <Link to="/explore" className="footer-link">Explore</Link>
                         </div>
 
                         <div className="footer-column">
                             <h4 className="footer-heading">Connect</h4>
-                            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="footer-link">Twitter</a>
-                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="footer-link">LinkedIn</a>
+                            <a href="https://github.com/avinashsah995/usefull-websites" target="_blank" rel="noopener noreferrer" className="footer-link">Github</a>
+                            <a href="https://www.linkedin.com/in/avinashsah995" target="_blank" rel="noopener noreferrer" className="footer-link">LinkedIn</a>
                         </div>
                     </div>
                 </div>

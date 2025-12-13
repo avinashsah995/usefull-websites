@@ -10,11 +10,11 @@ export default function Header() {
                     <span className="logo-text gradient-text">Useful Sites</span>
                 </Link>
 
-                <nav className="nav">
+                {/* <nav className="nav">
                     <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="nav-link">
                         GitHub
                     </a>
-                </nav>
+                </nav> */}
             </div>
         </header>
     );
