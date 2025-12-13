@@ -969,6 +969,562 @@ export const websites: WebsiteCategory[] = [
                 icon: '📉'
             }
         ]
+    },
+
+    {
+        category: 'Writing & Grammar Tools',
+        websites: [
+            {
+                id: 'grammarly',
+                title: 'Grammarly',
+                description: 'AI-powered writing assistant for grammar and style.',
+                fullDescription:
+                    'Grammarly checks grammar, spelling, punctuation, and style in real-time. It offers suggestions to improve clarity, engagement, and delivery across emails, documents, and social media.',
+                url: 'https://www.grammarly.com',
+                category: 'Writing & Grammar Tools',
+                features: ['Grammar checking', 'Style suggestions', 'Plagiarism detection', 'Tone analysis'],
+                icon: '✍️'
+            },
+            {
+                id: 'hemingway-editor',
+                title: 'Hemingway Editor',
+                description: 'Make your writing bold and clear.',
+                fullDescription:
+                    'Hemingway Editor highlights complex sentences, passive voice, and adverbs to help you write with clarity and impact — perfect for essays, articles, and professional communication.',
+                url: 'https://hemingwayapp.com',
+                category: 'Writing & Grammar Tools',
+                features: ['Readability scoring', 'Sentence complexity analysis', 'Clear highlights', 'Desktop & web versions'],
+                icon: '📝'
+            },
+            {
+                id: 'quillbot',
+                title: 'QuillBot',
+                description: 'AI paraphrasing and summarization tool.',
+                fullDescription:
+                    'QuillBot helps you rephrase sentences, summarize articles, check grammar, and improve writing fluency using AI — great for students and content creators.',
+                url: 'https://quillbot.com',
+                category: 'Writing & Grammar Tools',
+                features: ['Paraphrasing modes', 'Summarizer', 'Grammar checker', 'Citation generator'],
+                icon: '🪶'
+            },
+            {
+                id: 'languagetool',
+                title: 'LanguageTool',
+                description: 'Multilingual grammar and style checker.',
+                fullDescription:
+                    'LanguageTool supports over 30 languages and provides grammar, spelling, and style checking with browser extensions and integrations.',
+                url: 'https://languagetool.org',
+                category: 'Writing & Grammar Tools',
+                features: ['30+ languages', 'Style suggestions', 'Browser extensions', 'Privacy-focused'],
+                icon: '🌍'
+            }
+        ]
+    },
+
+    {
+        category: 'Color & Design Inspiration',
+        websites: [
+            {
+                id: 'coolors',
+                title: 'Coolors',
+                description: 'Fast color palette generator.',
+                fullDescription:
+                    'Coolors generates beautiful color palettes instantly with a spacebar press. Lock colors you like, export in multiple formats, and explore trending palettes.',
+                url: 'https://coolors.co',
+                category: 'Color & Design Inspiration',
+                features: ['Instant palette generation', 'Export options', 'Color picker', 'Trending palettes'],
+                icon: '🎨'
+            },
+            {
+                id: 'adobe-color',
+                title: 'Adobe Color',
+                description: 'Create and explore color schemes.',
+                fullDescription:
+                    'Adobe Color (formerly Kuler) helps you create color themes using color wheel theory, extract themes from images, and explore community-created palettes.',
+                url: 'https://color.adobe.com',
+                category: 'Color & Design Inspiration',
+                features: ['Color wheel tools', 'Extract from images', 'Accessibility checker', 'Save to Adobe apps'],
+                icon: '🌈'
+            },
+            {
+                id: 'colormind',
+                title: 'Colormind',
+                description: 'AI-powered color palette generator.',
+                fullDescription:
+                    'Colormind uses deep learning to generate color palettes that work well together. You can lock colors and generate variations or upload images for extraction.',
+                url: 'http://colormind.io',
+                category: 'Color & Design Inspiration',
+                features: ['AI generation', 'Image extraction', 'Website mockups', 'Lock & regenerate'],
+                icon: '🤖'
+            },
+            {
+                id: 'dribbble',
+                title: 'Dribbble',
+                description: 'Design inspiration and community showcase.',
+                fullDescription:
+                    'Dribbble is a community where designers share their work — perfect for finding inspiration, trends, and hiring creative talent.',
+                url: 'https://dribbble.com',
+                category: 'Color & Design Inspiration',
+                features: ['Design showcase', 'Hire designers', 'Trending work', 'Color search'],
+                icon: '🏀'
+            }
+        ]
+    },
+
+    {
+        category: 'Code Playgrounds & Editors',
+        websites: [
+            {
+                id: 'codepen',
+                title: 'CodePen',
+                description: 'Front-end code playground and social coding.',
+                fullDescription:
+                    'CodePen is a social development environment for front-end designers and developers. Build and deploy web projects, showcase your work, and learn from others.',
+                url: 'https://codepen.io',
+                category: 'Code Playgrounds & Editors',
+                features: ['Live preview', 'Social coding', 'Templates', 'Embed anywhere'],
+                icon: '🖊️'
+            },
+            {
+                id: 'jsfiddle',
+                title: 'JSFiddle',
+                description: 'Online code editor for web snippets.',
+                fullDescription:
+                    'JSFiddle is a simple tool for testing HTML, CSS, and JavaScript code snippets with instant preview — great for debugging and sharing examples.',
+                url: 'https://jsfiddle.net',
+                category: 'Code Playgrounds & Editors',
+                features: ['Multiple frameworks', 'Collaboration', 'Version control', 'Easy sharing'],
+                icon: '🎻'
+            },
+            {
+                id: 'replit',
+                title: 'Replit',
+                description: 'Collaborative browser-based IDE.',
+                fullDescription:
+                    'Replit is a complete online IDE supporting 50+ languages with real-time collaboration, hosting, and multiplayer coding features.',
+                url: 'https://replit.com',
+                category: 'Code Playgrounds & Editors',
+                features: ['50+ languages', 'Real-time collaboration', 'Hosting included', 'AI assistance'],
+                icon: '💻'
+            },
+            {
+                id: 'stackblitz',
+                title: 'StackBlitz',
+                description: 'Instant full-stack web IDE in the browser.',
+                fullDescription:
+                    'StackBlitz provides an instant, full-stack development environment powered by WebContainers — perfect for Angular, React, Vue, and Node.js projects.',
+                url: 'https://stackblitz.com',
+                category: 'Code Playgrounds & Editors',
+                features: ['WebContainer technology', 'Full-stack support', 'GitHub integration', 'Instant startup'],
+                icon: '⚡'
+            }
+        ]
+    },
+
+    {
+        category: 'Video & GIF Tools',
+        websites: [
+            {
+                id: 'ezgif',
+                title: 'EZGIF',
+                description: 'Simple online GIF maker and editor.',
+                fullDescription:
+                    'EZGIF provides tools to create, resize, crop, reverse, and optimize GIFs. You can also convert videos to GIFs and vice versa.',
+                url: 'https://ezgif.com',
+                category: 'Video & GIF Tools',
+                features: ['GIF creation', 'Video to GIF', 'Optimization', 'Effects & editing'],
+                icon: '🎞️'
+            },
+            {
+                id: 'kapwing',
+                title: 'Kapwing',
+                description: 'Collaborative online video editor.',
+                fullDescription:
+                    'Kapwing is a modern video editing platform with templates, subtitles, resizing, and team collaboration — perfect for social media content creators.',
+                url: 'https://www.kapwing.com',
+                category: 'Video & GIF Tools',
+                features: ['Video editing', 'Subtitle generator', 'Templates', 'Team collaboration'],
+                icon: '🎬'
+            },
+            {
+                id: 'clideo',
+                title: 'Clideo',
+                description: 'Simple video editing tools online.',
+                fullDescription:
+                    'Clideo offers easy-to-use tools for merging videos, adding music, compressing, converting formats, and creating slideshows — all in your browser.',
+                url: 'https://clideo.com',
+                category: 'Video & GIF Tools',
+                features: ['Video merge', 'Compress & convert', 'Add audio', 'Slideshow maker'],
+                icon: '📹'
+            },
+            {
+                id: 'loom',
+                title: 'Loom',
+                description: 'Async video messaging for work.',
+                fullDescription:
+                    'Loom lets you record quick videos of your screen, camera, or both to communicate faster than typing — perfect for tutorials, feedback, and team updates.',
+                url: 'https://www.loom.com',
+                category: 'Video & GIF Tools',
+                features: ['Screen recording', 'Camera recording', 'Easy sharing', 'Comments & reactions'],
+                icon: '🎥'
+            }
+        ]
+    },
+
+    {
+        category: 'Music & Audio Creation',
+        websites: [
+            {
+                id: 'soundtrap',
+                title: 'Soundtrap',
+                description: 'Online music studio for everyone.',
+                fullDescription:
+                    'Soundtrap is a collaborative online DAW (digital audio workstation) perfect for making music, podcasts, and beats with instruments, loops, and effects.',
+                url: 'https://www.soundtrap.com',
+                category: 'Music & Audio Creation',
+                features: ['Multi-track recording', 'Virtual instruments', 'Collaboration', 'Podcast tools'],
+                icon: '🎵'
+            },
+            {
+                id: 'audacity-online',
+                title: 'TwistedWave Online',
+                description: 'Browser-based audio editor.',
+                fullDescription:
+                    'TwistedWave is a simple yet powerful online audio editor for trimming, mixing, applying effects, and processing audio files without downloads.',
+                url: 'https://twistedwave.com/online',
+                category: 'Music & Audio Creation',
+                features: ['Audio editing', 'Effects processing', 'Multiple formats', 'Cloud storage'],
+                icon: '🎧'
+            },
+            {
+                id: 'beepbox',
+                title: 'BeepBox',
+                description: 'Simple online chiptune music maker.',
+                fullDescription:
+                    'BeepBox is an easy-to-use tool for creating chiptune-style music in your browser — great for game soundtracks, ringtones, and retro music.',
+                url: 'https://www.beepbox.co',
+                category: 'Music & Audio Creation',
+                features: ['Chiptune creation', 'Pattern editor', 'Export options', 'No signup needed'],
+                icon: '🎮'
+            },
+            {
+                id: 'musiclab-chrome',
+                title: 'Chrome Music Lab',
+                description: 'Playful music experiments by Google.',
+                fullDescription:
+                    'Chrome Music Lab makes learning music fun through hands-on experiments with rhythm, chords, melody, and sound waves.',
+                url: 'https://musiclab.chromeexperiments.com',
+                category: 'Music & Audio Creation',
+                features: ['Interactive experiments', 'Educational', 'No musical knowledge needed', 'Visual learning'],
+                icon: '🎹'
+            }
+        ]
+    },
+
+    {
+        category: 'Screenshot & Screen Recording',
+        websites: [
+            {
+                id: 'lightshot',
+                title: 'Lightshot',
+                description: 'Fast screenshot tool with editing.',
+                fullDescription:
+                    'Lightshot lets you capture screenshots, annotate them instantly, and share via link. Available as desktop app and browser extension.',
+                url: 'https://app.prntscr.com',
+                category: 'Screenshot & Screen Recording',
+                features: ['Quick capture', 'Instant editing', 'Cloud upload', 'Search similar images'],
+                icon: '📸'
+            },
+            {
+                id: 'screencastify',
+                title: 'Screencastify',
+                description: 'Simple screen recorder for Chrome.',
+                fullDescription:
+                    'Screencastify is a Chrome extension for recording your screen, webcam, and audio — perfect for tutorials, presentations, and video messages.',
+                url: 'https://www.screencastify.com',
+                category: 'Screenshot & Screen Recording',
+                features: ['Screen & webcam recording', 'Editing tools', 'Easy sharing', 'Annotations'],
+                icon: '🎬'
+            },
+            {
+                id: 'awesome-screenshot',
+                title: 'Awesome Screenshot',
+                description: 'Capture and annotate screenshots.',
+                fullDescription:
+                    'Awesome Screenshot captures full pages, selected areas, or visible portions with annotation tools and blur options for sensitive information.',
+                url: 'https://www.awesomescreenshot.com',
+                category: 'Screenshot & Screen Recording',
+                features: ['Full page capture', 'Annotation tools', 'Blur sensitive info', 'Video recording'],
+                icon: '📷'
+            }
+        ]
+    },
+
+    {
+        category: 'Mockup & Prototyping',
+        websites: [
+            {
+                id: 'figma',
+                title: 'Figma',
+                description: 'Collaborative interface design tool.',
+                fullDescription:
+                    'Figma is a powerful browser-based design tool for UI/UX design, prototyping, and collaboration — industry standard for product teams.',
+                url: 'https://www.figma.com',
+                category: 'Mockup & Prototyping',
+                features: ['Real-time collaboration', 'Prototyping', 'Design systems', 'Developer handoff'],
+                icon: '🎨'
+            },
+            {
+                id: 'mockuphone',
+                title: 'Mockuphone',
+                description: 'Free device mockup generator.',
+                fullDescription:
+                    'Mockuphone lets you wrap your screenshots in various device frames (phones, tablets, laptops) for presentations and portfolios.',
+                url: 'https://mockuphone.com',
+                category: 'Mockup & Prototyping',
+                features: ['Multiple devices', 'Free download', 'High resolution', 'Quick generation'],
+                icon: '📱'
+            },
+            {
+                id: 'smartmockups',
+                title: 'Smartmockups',
+                description: 'Create stunning product mockups.',
+                fullDescription:
+                    'Smartmockups offers thousands of mockup templates for devices, print, apparel, and more with drag-and-drop simplicity.',
+                url: 'https://smartmockups.com',
+                category: 'Mockup & Prototyping',
+                features: ['Thousands of templates', 'Drag & drop', 'High quality', 'Fast rendering'],
+                icon: '🖼️'
+            },
+            {
+                id: 'marvel',
+                title: 'Marvel',
+                description: 'Design, prototype, and collaborate.',
+                fullDescription:
+                    'Marvel is an all-in-one platform for designing, prototyping, and collaborating on digital products with user testing features built in.',
+                url: 'https://marvelapp.com',
+                category: 'Mockup & Prototyping',
+                features: ['Prototyping', 'User testing', 'Handoff specs', 'Design repository'],
+                icon: '⚡'
+            }
+        ]
+    },
+
+    {
+        category: 'Data Visualization',
+        websites: [
+            {
+                id: 'tableau-public',
+                title: 'Tableau Public',
+                description: 'Free data visualization platform.',
+                fullDescription:
+                    'Tableau Public allows you to create interactive data visualizations and share them online — perfect for journalists, researchers, and data enthusiasts.',
+                url: 'https://public.tableau.com',
+                category: 'Data Visualization',
+                features: ['Interactive dashboards', 'Large dataset support', 'Public sharing', 'Embed anywhere'],
+                icon: '📊'
+            },
+            {
+                id: 'datawrapper',
+                title: 'Datawrapper',
+                description: 'Create charts and maps for news and stories.',
+                fullDescription:
+                    'Datawrapper is used by journalists and organizations to create beautiful, responsive charts, maps, and tables without coding.',
+                url: 'https://www.datawrapper.de',
+                category: 'Data Visualization',
+                features: ['No-code charts', 'Maps & locators', 'Responsive design', 'Export & embed'],
+                icon: '🗺️'
+            },
+            {
+                id: 'rawgraphs',
+                title: 'RAWGraphs',
+                description: 'Open-source data visualization framework.',
+                fullDescription:
+                    'RAWGraphs bridges the gap between spreadsheets and vector graphics, letting you create custom visualizations and export them as SVG or PNG.',
+                url: 'https://www.rawgraphs.io',
+                category: 'Data Visualization',
+                features: ['Custom visualizations', 'CSV import', 'SVG export', 'No coding needed'],
+                icon: '📈'
+            }
+        ]
+    },
+
+    {
+        category: 'Translation & Language Learning',
+        websites: [
+            {
+                id: 'deepl',
+                title: 'DeepL',
+                description: 'AI-powered translation with nuance.',
+                fullDescription:
+                    'DeepL provides highly accurate translations that capture nuance and context better than traditional tools — supports 31 languages.',
+                url: 'https://www.deepl.com',
+                category: 'Translation & Language Learning',
+                features: ['Context-aware translation', '31 languages', 'Document translation', 'Writing suggestions'],
+                icon: '🌐'
+            },
+            {
+                id: 'duolingo',
+                title: 'Duolingo',
+                description: 'Learn languages for free, gamified.',
+                fullDescription:
+                    'Duolingo makes language learning fun with bite-sized lessons, game-like progression, and a friendly owl companion. Learn 40+ languages.',
+                url: 'https://www.duolingo.com',
+                category: 'Translation & Language Learning',
+                features: ['40+ languages', 'Gamified learning', 'Mobile & web', 'Progress tracking'],
+                icon: '🦉'
+            },
+            {
+                id: 'forvo',
+                title: 'Forvo',
+                description: 'Pronunciation dictionary with native speakers.',
+                fullDescription:
+                    "Forvo is the world's largest pronunciation dictionary where you can hear words spoken by native speakers in hundreds of languages.",
+                url: 'https://forvo.com',
+                category: 'Translation & Language Learning',
+                features: ['Native pronunciations', '400+ languages', 'User contributions', 'API available'],
+                icon: '🗣️'
+            },
+            {
+                id: 'reverso-context',
+                title: 'Reverso Context',
+                description: 'Translation in context from real sources.',
+                fullDescription:
+                    'Reverso Context shows translations in real-world examples from millions of texts, helping you understand usage and nuance.',
+                url: 'https://context.reverso.net',
+                category: 'Translation & Language Learning',
+                features: ['Context examples', 'Multiple languages', 'Conjugation tools', 'Pronunciation'],
+                icon: '📖'
+            }
+        ]
+    },
+
+    {
+        category: 'Email & Newsletter Tools',
+        websites: [
+            {
+                id: 'mailchimp',
+                title: 'Mailchimp',
+                description: 'Email marketing and automation platform.',
+                fullDescription:
+                    'Mailchimp helps you design email campaigns, automate marketing, build landing pages, and analyze results — perfect for businesses and creators.',
+                url: 'https://mailchimp.com',
+                category: 'Email & Newsletter Tools',
+                features: ['Email campaigns', 'Marketing automation', 'Analytics', 'Templates'],
+                icon: '📧'
+            },
+            {
+                id: 'substack',
+                title: 'Substack',
+                description: 'Start a paid newsletter in minutes.',
+                fullDescription:
+                    'Substack makes it simple to start a paid newsletter with built-in payment processing, subscriber management, and a clean reading experience.',
+                url: 'https://substack.com',
+                category: 'Email & Newsletter Tools',
+                features: ['Paid subscriptions', 'Simple publishing', 'Built-in payments', 'Reader network'],
+                icon: '📰'
+            },
+            {
+                id: 'buttondown',
+                title: 'Buttondown',
+                description: 'Minimal, elegant newsletter tool.',
+                fullDescription:
+                    'Buttondown is a small, elegant tool for sending newsletters with Markdown support, automation, and a privacy-first approach.',
+                url: 'https://buttondown.email',
+                category: 'Email & Newsletter Tools',
+                features: ['Markdown support', 'Privacy-focused', 'Automation', 'API access'],
+                icon: '✉️'
+            }
+        ]
+    },
+
+    {
+        category: 'Project Management & Collaboration',
+        websites: [
+            {
+                id: 'trello',
+                title: 'Trello',
+                description: 'Visual project management with boards and cards.',
+                fullDescription:
+                    'Trello uses boards, lists, and cards to organize projects and tasks in a flexible, visual way — perfect for teams of any size.',
+                url: 'https://trello.com',
+                category: 'Project Management & Collaboration',
+                features: ['Kanban boards', 'Power-ups', 'Team collaboration', 'Mobile apps'],
+                icon: '📋'
+            },
+            {
+                id: 'asana',
+                title: 'Asana',
+                description: 'Work management platform for teams.',
+                fullDescription:
+                    'Asana helps teams organize, track, and manage work with project timelines, task dependencies, and multiple viewing options.',
+                url: 'https://asana.com',
+                category: 'Project Management & Collaboration',
+                features: ['Task management', 'Timeline view', 'Workload tracking', 'Integrations'],
+                icon: '✅'
+            },
+            {
+                id: 'monday',
+                title: 'Monday.com',
+                description: 'Work operating system for any workflow.',
+                fullDescription:
+                    'Monday.com is a customizable work OS that powers teams to run projects and workflows with confidence — highly visual and flexible.',
+                url: 'https://monday.com',
+                category: 'Project Management & Collaboration',
+                features: ['Custom workflows', 'Automation', 'Multiple views', 'Integrations'],
+                icon: '🎯'
+            },
+            {
+                id: 'miro',
+                title: 'Miro',
+                description: 'Online collaborative whiteboard platform.',
+                fullDescription:
+                    'Miro is an infinite canvas for brainstorming, planning, and collaborating visually with your team — perfect for workshops and agile teams.',
+                url: 'https://miro.com',
+                category: 'Project Management & Collaboration',
+                features: ['Infinite canvas', 'Templates', 'Real-time collaboration', 'Integrations'],
+                icon: '🖼️'
+            }
+        ]
+    },
+
+    {
+        category: 'URL Shorteners & Link Management',
+        websites: [
+            {
+                id: 'bitly',
+                title: 'Bitly',
+                description: 'Shorten, share, and track links.',
+                fullDescription:
+                    'Bitly creates short, memorable links and provides analytics on clicks, geographic data, and referrers — essential for social media and marketing.',
+                url: 'https://bitly.com',
+                category: 'URL Shorteners & Link Management',
+                features: ['Link shortening', 'Analytics', 'Custom domains', 'QR codes'],
+                icon: '🔗'
+            },
+            {
+                id: 'tinyurl',
+                title: 'TinyURL',
+                description: 'Simple URL shortener since 2002.',
+                fullDescription:
+                    'TinyURL is one of the original URL shorteners — fast, reliable, and straightforward with no account required for basic shortening.',
+                url: 'https://tinyurl.com',
+                category: 'URL Shorteners & Link Management',
+                features: ['Free shortening', 'Custom aliases', 'No expiration', 'Preview feature'],
+                icon: '🔗'
+            },
+            {
+                id: 'linktree',
+                title: 'Linktree',
+                description: 'One link for all your content.',
+                fullDescription:
+                    'Linktree lets you create a single landing page with multiple links — perfect for social media bios and creator profiles.',
+                url: 'https://linktr.ee',
+                category: 'URL Shorteners & Link Management',
+                features: ['Multiple links', 'Customization', 'Analytics', 'Integrations'],
+                icon: '🌳'
+            }
+        ]
     }
 
 ];
