@@ -381,6 +381,16 @@ export const websites: WebsiteCategory[] = [
         category: 'Entertainment',
         websites: [
             {
+                id: 'stagepeek-ent',
+                title: 'StagePeek',
+                description: 'Preview 2D & 3D concert seat views across 201 global venues.',
+                fullDescription: 'StagePeek lets concertgoers inspect 2D seating maps and custom 3D arena sightline simulations with 1x–10x smartphone camera zoom across 201 stadiums and arenas before buying tickets.',
+                url: 'https://stagepeek.live',
+                category: 'Entertainment',
+                features: ['201 3D venue models', '1x–10x camera zoom', 'Free 1st seat preview (no login)'],
+                icon: '🎤'
+            },
+            {
                 id: 'radio-garden-ent',
                 title: 'Radio Garden (Entertainment)',
                 description: 'Live global radio with a rotatable globe interface.',
